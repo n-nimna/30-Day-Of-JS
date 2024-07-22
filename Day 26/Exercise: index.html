@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Countries List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>WORLD COUNTRIES LIST</h1>
+      <p>Total Number of countries: <span id="total-countries">0</span></p>
+      <p>Countries start with <span id="start-letter">A</span> are <span id="start-count">0</span></p>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button id="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+  </header>
+  <main>
+    <div class="buttons">
+      <button id="starting-word">STARTING WORD</button>
+      <button id="any-word">SEARCH WITH ANY WORD</button>
+      <button id="sort-btn">SORT</button>
+    </div>
+    <div class="countries-grid" id="countries-grid">
+      <!-- Countries will be dynamically added here -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
