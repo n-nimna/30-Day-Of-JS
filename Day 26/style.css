@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    background: url('header2.jpeg') no-repeat center center/cover;
+    padding: 60px 20px;
+    color: #fff;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .search-container {
+    margin-top: 20px;
+  }
+  
+  #search-input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+  
+  #search-btn {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -45px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .country-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .country-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .country-card p {
+    margin: 10px 0 0;
+    font-weight: bold;
+  }
+  
