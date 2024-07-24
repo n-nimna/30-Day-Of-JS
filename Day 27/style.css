@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.motivator {
+    background-color: #f0d9d8;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.motivator span {
+    font-size: 1.5rem;
+    color: #ff6f61;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.challenges {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.challenge {
+    padding: 2rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.challenge.selected {
+    background-color: #f0d9d8;
+}
+
+.technologies {
+    font-size: 1.2rem;
+}
+
+.technologies .tech {
+    font-weight: bold;
+    color: #8bc34a;
+    font-size: 1.5rem;
+}
