@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>World Countries Data</h1>
+            <p>Currently, we have 250 countries</p>
+            <p class="sub-text">5 countries satisfied the search criteria</p>
+        </header>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search countries...">
+            <div class="buttons">
+                <button id="sort-name">Name</button>
+                <button id="sort-capital">Capital</button>
+                <button id="sort-population">Population</button>
+            </div>
+        </div>
+        <div id="countries-container" class="countries-container"></div>
+        <div class="bar-chart-container">
+            <div class="bar-chart">
+                <h3>World Population</h3>
+                <div id="bar-chart"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
