@@ -1,0 +1,19 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b0c4de;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .animated-text {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
